@@ -1,0 +1,4 @@
+include ':app'
+
+include 'rnpatchql'
+project(':rnpatchql').projectDir = new File('../react-native-patchql/android')
